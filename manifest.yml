@@ -2,7 +2,7 @@
 applications:
   - name: student-feedback-app
     memory: 256M
-    disk_quota: 512G
+    disk_quota: 512M
     instances: 1
     random-route: true
     buildpacks:

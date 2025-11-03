@@ -1,9 +1,9 @@
 ---
 applications:
-  - name: vite-react-app
+  - name: vite-react-shadcn
     memory: 512M
     disk_quota: 1G
-    random-route: true
     buildpacks:
       - nodejs_buildpack
     command: npm run start
+    random-route: true

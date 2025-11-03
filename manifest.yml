@@ -1,0 +1,9 @@
+---
+applications:
+  - name: vite-react-app
+    memory: 512M
+    disk_quota: 1G
+    random-route: true
+    buildpacks:
+      - nodejs_buildpack
+    command: npm run start
